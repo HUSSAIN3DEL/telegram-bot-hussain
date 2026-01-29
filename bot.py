@@ -916,8 +916,12 @@ def main():
         allowed_updates=Update.ALL_TYPES,
         drop_pending_updates=True
     )
-
+    
 if __name__ == "__main__":
+    # إنشاء مجلد data إذا لم يكن موجوداً
+    if not os.path.exists("data"):
+        os.makedirs("data", exist_ok=True)
+    
     # تهيئة الملفات إذا لم تكن موجودة
     for file_path in [STICKERS_FILE, TEXTS_FILE, USERS_FILE, STATS_FILE]:
         if not os.path.exists(file_path):
