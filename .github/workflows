@@ -1,0 +1,26 @@
+name: تشغيل البوت
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: تثبيت المكتبات
+      run: pip install -r requirements.txt
+    
+    - name: تشغيل البوت
+      env:
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      run: |
+        echo "🚀 بدء تشغيل البوت..."
+        python bot.py
