@@ -1,6 +1,6 @@
 # إعدادات البوت
-BOT_NAME = "بوت ٣ ثانوي أزهر ٢٠٢٦"
-BOT_VERSION = "2026.1.0"
+BOT_NAME = "بوت حسين"
+BOT_VERSION = "2.0.0"
 BOT_CREATOR = "حسين"
 
 # مسارات الملفات
@@ -20,21 +20,32 @@ MAX_LIST_ITEMS = 50
 MAX_SEARCH_RESULTS = 10
 POLL_INTERVAL = 1.0
 
-# الإدارة - كل المشرفين
+# الإدارة - كل الأدمن إليك
 ADMIN_IDS = [
-    1525269399,   # 👈 أنت (حسين)
-    7163835091,   # المشرف 1
-    5336094844,   # المشرف 2
-    5592036272,   # المشرف 3
-    7379551517,   # المشرف 4
-    1911857884    # المشرف 5
+    1525269399,  # 👑 أنت (حسين) - المالك
+    7163835091,  # 👨‍💼 أدمن 1
+    5336094844,  # 👨‍💼 أدمن 2  
+    1911857884,  # 👨‍💼 أدمن 3
+    5592036272,  # 👨‍💼 أدمن 4
+    7379551517,  # 👨‍💼 أدمن 5
 ]
-SUPER_ADMIN_IDS = []
+
+SUPER_ADMIN_IDS = [1525269399]  # 👑 أنت فقط سوبر أدمن
 BLOCKED_USERS = []
 GROUP_ADMINS_ENABLED = False
 
 # إعدادات إضافية
 SHOW_HELP_BUTTON = True
+SHOW_STATS_BUTTON = True
+SHOW_TOP_USERS = 5
+ENABLE_BUTTONS = True
+TRACK_STATS = True
+SHOW_ERRORS_TO_USER = False
+FUZZY_SEARCH = True
+DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
+
+# اللغة
+BOT_LANGUAGE = "ar"SHOW_HELP_BUTTON = True
 SHOW_STATS_BUTTON = True
 SHOW_TOP_USERS = 5
 ENABLE_BUTTONS = True
