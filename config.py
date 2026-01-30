@@ -1,5 +1,5 @@
 # إعدادات البوت
-BOT_NAME = "بوت حسين"
+BOT_NAME = "بوت ٣ ثانوي ازهر ٢٠٢٦"
 BOT_VERSION = "2.0.0"
 BOT_CREATOR = "حسين"
 
@@ -43,19 +43,6 @@ TRACK_STATS = True
 SHOW_ERRORS_TO_USER = False
 FUZZY_SEARCH = True
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
-
-# اللغة
-BOT_LANGUAGE = "ar"SHOW_HELP_BUTTON = True
-SHOW_STATS_BUTTON = True
-SHOW_TOP_USERS = 5
-ENABLE_BUTTONS = True
-TRACK_STATS = True
-SHOW_ERRORS_TO_USER = False
-FUZZY_SEARCH = True
-DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
-
-# اللغة
-BOT_LANGUAGE = "ar"DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
 # اللغة
 BOT_LANGUAGE = "ar"
